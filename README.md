@@ -1,19 +1,21 @@
 # **FlavorFly - Food Delivery Application**
 
-FlavorFly is a robust food delivery application designed to provide a seamless and efficient platform for customers to order their favorite meals and for administrators to manage the backend operations effectively. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), the application combines a modern, responsive user interface with a powerful backend to create a complete end-to-end solution for food delivery services.
+FlavorFly is a robust food delivery application designed to provide a seamless and efficient platform for customers to order their favorite meals and for administrators to manage the backend operations effectively. Built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**, the application combines a modern, responsive user interface with a powerful backend to create a complete end-to-end solution for food delivery services.
 
 The application is structured into two distinct panels:
 - **User Panel**: Tailored for customers to browse the menu, place orders, and track their order status.
 - **Admin Panel**: Designed for administrators to manage menu items, oversee customer orders, and handle user management.
 
----
+
+
 
 ## **Live Demo**
-- Checkout the Live Application here:
-- [FlavorFly - User Panel](https://flavorfly-frontend.onrender.com)
-- [FlavorFly - Admin Panel](https://flavorfly-admin.onrender.com)
+You can access the live version of the project using the following link:
+- [FlavorFly - User](https://flavorfly-frontend.onrender.com)
+- [FlavorFly - Admin](https://flavorfly-admin.onrender.com)
 
----
+
+
 
 ## **Features**
 
@@ -36,7 +38,8 @@ The application is structured into two distinct panels:
 
 - **Menu Management**: The admin panel allows for easy addition, editing, or removal of food items from the menu. This ensures that the application reflects the current offerings.
 
----
+
+
 
 ## **Technology Stack** 
 
@@ -60,7 +63,8 @@ The application is structured into two distinct panels:
 
 - **Stripe**: For handling payments securely, ensuring a smooth checkout experience for users.
 
----
+
+
 
 ## **Architecture**
 
@@ -69,7 +73,8 @@ The application is structured into two distinct panels:
 - **Database**: Stores user, order, and food item data.
 - **Security**: Passwords are hashed, and JWT is used for secure session management.
 
----
+
+
 
 ## **Data Flow and Interaction**
 
@@ -79,7 +84,8 @@ The application is structured into two distinct panels:
 
 - **Order Fulfillment**: Once the payment is confirmed, the backend updates the order status and notifies the user. Administrators can view and manage these orders through the admin panel.
 
----
+
+
 
 ## How It Works
 

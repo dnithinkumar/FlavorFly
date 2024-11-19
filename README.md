@@ -1,19 +1,19 @@
 # **FlavorFly - Food Delivery Application**
 
-- FlavorFly is a robust food delivery application designed to provide a seamless and efficient platform for customers to order their favorite meals and for administrators to manage the backend operations effectively. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), the application combines a modern, responsive user interface with a powerful backend to create a complete end-to-end solution for food delivery services.
+FlavorFly is a robust food delivery application designed to provide a seamless and efficient platform for customers to order their favorite meals and for administrators to manage the backend operations effectively. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), the application combines a modern, responsive user interface with a powerful backend to create a complete end-to-end solution for food delivery services.
 
-- The application is structured into two distinct panels:
+The application is structured into two distinct panels:
 - **User Panel**: Tailored for customers to browse the menu, place orders, and track their order status.
 - **Admin Panel**: Designed for administrators to manage menu items, oversee customer orders, and handle user management.
 
 ---
 
 ## **Live Demo**
-- Checkout the Live Application here
-[FlavorFly - User Panel](https://flavorfly-frontend.onrender.com)
-[FlavorFly - Admin Panel](https://flavorfly-admin.onrender.com)
+- Checkout the Live Application here:
+- [FlavorFly - User Panel](https://flavorfly-frontend.onrender.com)
+- [FlavorFly - Admin Panel](https://flavorfly-admin.onrender.com)
 
---
+---
 
 ## **Features**
 
@@ -26,7 +26,7 @@
 
 - **Checkout Process**: During checkout, users confirm their orders and provide delivery details. The application initiates a payment session with Stripe, allowing users to complete their transactions securely.
 
--- **Order History**: Users can view their past orders, including details about items purchased, order status, and payment confirmations.
+- **Order History**: Users can view their past orders, including details about items purchased, order status, and payment confirmations.
 
 ### **Admin Features**
 
@@ -79,6 +79,8 @@
 
 - **Order Fulfillment**: Once the payment is confirmed, the backend updates the order status and notifies the user. Administrators can view and manage these orders through the admin panel.
 
+---
+
 ## How It Works
 
 ### User Workflow
@@ -88,7 +90,7 @@
 - Add desired items to the cart and proceed to checkout.
 - Make payments via Stripe, confirming the order.
 - View order history for previous transactions.
-- 
+  
 ### Admin Workflow
 - Admin logs in securely.
 - Access the dashboard to manage orders, menu items, and users.
